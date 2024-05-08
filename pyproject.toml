@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "breach-checker"
+version = "0.1.0"
+description = ""
+authors = ["x404xx <ghost.py@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = {extras = ["socks"], version = "^0.27.0"}
+user-agent = "^0.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
